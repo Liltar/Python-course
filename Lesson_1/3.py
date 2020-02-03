@@ -6,4 +6,4 @@
 # вывод:
 # 2^3 * 3 * 19
 value = input("Enter a number:")
-if 
+if value
