@@ -5,5 +5,4 @@
 # Допустимые символы - цифры, большие и маленькие латинские буквы.
 # (нужно использовать метод input)
 #import random
-
 input('Enter length of the intended password')
