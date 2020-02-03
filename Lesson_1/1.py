@@ -15,7 +15,3 @@ print('three most common numbers and their frequency are', collections.Counter(n
 print(set(number))
 # 1.3.2
 print(list(collections.Counter(number)))
-# 2.1 intersection
-a = {'a': 1, 'b': 4, 't': 67}
-b = {'c': 4, 'e': 1, 'a': 4, 't': 7, 'y': 11}
-dicts = [a, b]
