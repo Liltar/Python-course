@@ -6,6 +6,7 @@
 # (нужно использовать метод input)
 import random
 s = "ABCDEFGHIJKLMNOPQRSTUVWXYZbacdefghijklmnopqrstuvwxyz0123456789"
-passlen = input('enter password len:')
-p =  "".join(random.sample(s, passlen ))
+value = input('enter password length:')
+p =  "".join(random.sample(s, int(value)))
+try: if 
 print(p)
