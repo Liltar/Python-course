@@ -8,5 +8,4 @@ import random
 s = "ABCDEFGHIJKLMNOPQRSTUVWXYZbacdefghijklmnopqrstuvwxyz0123456789"
 value = input('enter password length:')
 p =  "".join(random.sample(s, int(value)))
-try: if 
 print(p)
