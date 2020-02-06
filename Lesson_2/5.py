@@ -4,5 +4,8 @@
 # Также нужно проверять является ли введенная строка числом.
 # Допустимые символы - цифры, большие и маленькие латинские буквы.
 # (нужно использовать метод input)
-#import random
-input('Enter length of the intended password')
+import random
+s = "ABCDEFGHIJKLMNOPQRSTUVWXYZbacdefghijklmnopqrstuvwxyz0123456789"
+passlen = input('enter password len:')
+p =  "".join(random.sample(s, passlen ))
+print(p)
