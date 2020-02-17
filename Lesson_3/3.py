@@ -5,9 +5,6 @@
 # Пример - список [[‘Krishna’, 67, 68, 69], [‘Arjun’, 70, 98, 63], [‘Malika’, 52, 56, 60]].
 # Если на вход придет имя Malika - ответ будет 56.00.
 l = [['Krishna', 67, 68, 69], ['Arjun', 70, 98, 63], ['Malika', 52, 56, 60]]
-l1 = ['Krishna', 67, 68, 69]
-l2 = ['Arjun', 70, 98, 63]
-l3 = ['Malika', 52, 56, 60]
 inp = input('Enter a student name:')
 if inp == 'Krishna' or 'krishna':
     print((67+68+69)/3)
@@ -15,3 +12,4 @@ elif inp == 'Arjun' or 'arjun':
     print((70+98+63)/3)
 elif inp == 'Malika' or 'malika':
     print((52+56+60)/3)
+elif inp ==
