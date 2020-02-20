@@ -12,4 +12,3 @@ elif inp == 'Arjun' or 'arjun':
     print((70+98+63)/3)
 elif inp == 'Malika' or 'malika':
     print((52+56+60)/3)
-elif inp ==
