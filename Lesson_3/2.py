@@ -9,4 +9,4 @@
 s = 'ABCDEFGHIJKLIMOPQRSTUVWXYZ'
 w = 4
 for i in range(0, len(s), w):
-    print(s[i : i + w])
+    print(s[i : i + 4])
