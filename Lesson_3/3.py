@@ -8,7 +8,6 @@ for student in stud:
 
 print("Enter a student name: ")
 name = input()
-
 if name in stud_dic.keys():
     # get values by key and dividing by length of the list
     notes = sum(stud_dic.get(name))/len(stud_dic.get(name))
